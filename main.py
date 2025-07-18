@@ -5,12 +5,10 @@ age=input("How old are you?")
 print("Hello "+name+"!" "Let's start your day!😊")
 print()
 
-
-
-print("You wake up in your bed and realize it's 12pm.")
-print("I missed breakfeast and I'm so hungry...")
-print("I think I'm going to go to Mcdonalds!")
-print("You walk to Mcdonalds and order some food.")
+print("Welcome to Skyrift! Right now the name of the city sounds futuristic, but the city isn't in it's best shape.")
+player_idea=input("What ideas do you have to make Skyrift a better city?")
+print("That's amazing! Your idea to "+player_idea+" is a great idea!")
+print()
 
 mcdonalds_food=input("What food do you want to order🍔?")
 mcdonalds_drink=input("What drink do you want to order🥤?")
