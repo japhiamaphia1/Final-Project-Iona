@@ -1,5 +1,6 @@
 
-print("Welcome to AI Climate Prevention Game!")
+print("Welcome to AI/machine Learning Game!")
+
 name=input("What is your name?")
 age=input("How old are you?")
 print("Hello "+name+"!" "Let's start your day!😊")
