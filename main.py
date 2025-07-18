@@ -10,9 +10,8 @@ player_idea=input("What ideas do you have to make Skyrift a better city?")
 print("That's amazing! Your idea to "+player_idea+" is a great idea!")
 print()
 
-mcdonalds_food=input("What food do you want to order🍔?")
-mcdonalds_drink=input("What drink do you want to order🥤?")
-mcdonalds_fries=input("What size of fries do you want?🍟")
+print("As an AI bot, some actions I can do are analyzing data for the city and predicting weather updates!")
+print("Robots can help may cites in multiple ways. Some of the ways include making self driving taxis operated by AI reconization.")
 
 
 print()
