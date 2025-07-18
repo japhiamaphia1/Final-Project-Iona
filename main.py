@@ -12,6 +12,7 @@ print()
 
 print("As an AI bot, some actions I can do are analyzing data for the city and predicting weather updates!")
 print("Robots can help may cites in multiple ways. Some of the ways include making self driving taxis operated by AI reconization.")
+print("Going back to the topic of climate change, robots and AI can make technology that plants trees all around Skyrift to help produce more oxygen for it!")
 
 
 print()
