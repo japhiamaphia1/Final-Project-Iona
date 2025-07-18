@@ -14,20 +14,8 @@ print("As an AI bot, some actions I can do are analyzing data for the city and p
 print("Robots can help may cites in multiple ways. Some of the ways include making self driving taxis operated by AI reconization.")
 print("Going back to the topic of climate change, robots and AI can make technology that plants trees all around Skyrift!")
 tree_answer=input("Do you know why planting trees all around Skyrift can help the city?")
+print()
 print("That's right, by" +tree_answer+ "trees in a way recycle the oxygen and push out a cleaner form of it!")
-
-
-
-print()
-print("You wait for your "+mcdonalds_food+", "+mcdonalds_drink+", and "+mcdonalds_fries+" to arrive.")
-print("In the meantime, you look at your phone and see a notification.")
-print("New animal shelter in town! You decide to go check it out later.")
-print("In the distance you hear the worker saying")
-print("Order for "+name+"!")
-print("You go pick up your food and finish it quickly.")
-print("After you finish your food, you decide to go to the animal shelter.")
-print("When you get to the shelter a lady comes up to you and asks about your animal preferences.")
-print()
 
 
 animal=input("What is your pet/animal choice?🐶😺")
