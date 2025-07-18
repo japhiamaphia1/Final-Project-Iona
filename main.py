@@ -1,4 +1,4 @@
-
+print("hehe")
 print("Welcome to AI Climate Prevention Game!")
 
 name=input("What is your name?")
