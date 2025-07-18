@@ -1,22 +1,51 @@
 
-print("Welcome to AI/machine Learning Game!")
+def start_adventure():
+  """Start the text-based adventure game"""
+  print("Welcome to the AI/Machine Learning Game!")
+  print("Which game would you like to play?")
+  print()
 
-name=input("What is your name?")
-age=input("How old are you?")
-print("Hello "+name+"!" "Let's start your day!😊")
-print()
+  # Present the first choice to the player
+  print("1. How AI can help in the Medical Field.")
+  print("2. How AI can help with Climate Change.")
+  print()
 
-print("Welcome to Skyrift! Right now the name of the city sounds futuristic, but the city isn't in it's best shape.")
-player_idea=input("What ideas do you have to make Skyrift a better city?")
-print("That's amazing! Your idea to "+player_idea+" is a great idea!")
-print()
+  # Get the player's choice
+  choice1 = input("What do you want to do? (1 or 2): ")
 
-print("As an AI bot, some actions I can do are analyzing data for the city and predicting weather updates!")
-print("Robots can help may cites in multiple ways. Some of the ways include making self driving taxis operated by AI reconization.")
-print("Going back to the topic of climate change, robots and AI can make technology that plants trees all around Skyrift!")
-tree_answer=input("Do you know why planting trees all around Skyrift can help the city?")
-print()
-print("That's right, by" +tree_answer+ "trees in a way recycle the oxygen and push out a cleaner form of it!")
+  # Branching story based on the first choice
+  if choice1 == '1':
+      print()
+      print("Welcome to AI/machine Learning Game!")
+
+      name=input("What is your name?")
+      age=input("How old are you?")
+      print("Hello "+name+"!" "Let's start your day!😊")
+      print()
+
+      print("Welcome to Skyrift! Right now the name of the city sounds futuristic, but the city isn't in it's best shape.")
+      player_idea=input("What ideas do you have to make Skyrift a better city?")
+      print("That's amazing! Your idea to "+player_idea+" is a great idea!")
+      print()
+
+      print("As an AI bot, some actions I can do are analyzing data for the city and predicting weather updates!")
+      print("Robots can help may cites in multiple ways. Some of the ways include making self driving taxis operated by AI reconization.")
+      print("Going back to the topic of climate change, robots and AI can make technology that plants trees all around Skyrift!")
+      tree_answer=input("Do you know why planting trees all around Skyrift can help the city?")
+      print()
+      print("That's right, by" +tree_answer+ "trees in a way recycle the oxygen and push out a cleaner form of it!")
+
+      # Get the player's choice for the second scenario
+      choice2 = input("What do you want to do? (1 or 2): ")
+
+      if choice2 == '1':
+          print("\nYou chose to open the chest. Congratulations! You found a valuable gem.")
+      elif choice2 == '2':
+          print("\nYou chose to leave the cave. As you exit, the cave entrance collapses behind you.")
+      else:
+          print("\nInvalid choice. The adventure ends here.")
+if __name__ == "__main__":
+    start_adventure()
 
 
 animal=input("What is your pet/animal choice?🐶😺")
