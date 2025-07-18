@@ -1,4 +1,5 @@
-print("Welcome to Life Simulator!")
+
+sdprint("Welcome to Life Simulator!")
 name=input("What is your name?")
 age=input("How old are you?")
 print("Hello "+name+"!" "Let's start your day!😊")
